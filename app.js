@@ -10,5 +10,9 @@ labQuizButton.addEventListener('click', () => {
     
     const confirmation = confirm('Do you want to continue?');
     if (!confirmation) return; 
+
+    prompt('What is your first name?');
     
+    prompt('What is your last name?');
+
 });

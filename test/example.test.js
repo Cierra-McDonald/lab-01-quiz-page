@@ -9,4 +9,3 @@ test('time to test the results', (expect) => {
 
     expect.equal(actual, expected);
 });
-

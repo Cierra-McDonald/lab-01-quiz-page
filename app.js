@@ -7,6 +7,8 @@ console.log(userInputField);
 // set event listeners to update state and DOM
 labQuizButton.addEventListener('click', () => {
     alert('Welcome to my quiz!');
-    return;
+    
+    const confirmation = confirm('Do you want to continue?');
+    if (!confirmation) return; 
     
 });

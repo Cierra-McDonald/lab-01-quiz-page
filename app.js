@@ -11,16 +11,38 @@ labQuizButton.addEventListener('click', () => {
     const confirmation = confirm('Do you want to continue?');
     if (!confirmation) return; 
 
-    prompt('What is your first name?');
+    const firstName = prompt('What is your first name?');
+    console.log(firstName);
     
-    prompt('What is your last name?');
+    const lastName = prompt('What is your last name?');
+    console.log(lastName);
     
-    prompt('Was Cierra born in Colorado Springs?');
+    const firstAnswer = prompt('Was Cierra born in Colorado Springs?');
+    if (firstAnswer.charAt(0).toUpperCase() !== 'Y') {
+        console.log('Perfect!');
+    } else {
+        console.log('Not quite!');
+    }
 
-    prompt('Was lacrosse one of the sports she played?');
+    const secondAnswer = prompt('Was lacrosse one of the sports she played?');
+    if (secondAnswer.charAt(0).toUpperCase() === 'Y') {
+        console.log('Perfect!');
+    } else {
+        console.log('Not quite!');
+    }
 
-    prompt('Did Cierra receive a minor in pre-law?');
+    const thirdAnswer = prompt('Did Cierra receive a minor in pre-law?');
+    if (thirdAnswer.charAt(0).toUpperCase() === 'Y') {
+        console.log('Perfect!');
+    } else {
+        console.log('Not quite!');
+    }
 
-    prompt('Is Cierra an extrovert?');
+    const fourthAnswer = prompt('Is Cierra an extrovert?');
+    if (fourthAnswer.charAt(0).toUpperCase() !== 'Y') {
+        console.log('Perfect!');
+    } else {
+        console.log('Not quite!');
+    }
 
 });

@@ -53,7 +53,7 @@ labQuizButton.addEventListener('click', () => {
     //     console.log('Not quite!');
     // }
 
-    const resultString = `Hey ${firstName} ${lastName}! You got ${correctAnswers} correct!  Awesome Job!`;
+    const resultString = `Hey ${firstName} ${lastName}! You got ${correctAnswers} out of 4 correct!  Awesome Job!`;
     console.log(resultString);
 
     userInputField.textContent = resultString;

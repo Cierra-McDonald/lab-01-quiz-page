@@ -31,7 +31,7 @@ main {
 }
 
 section {
-    background-color: var(--color5);
+    background-color:#F2CCC3;
     width: 1000px;
     max-width: 80%;
     display: flex;
@@ -43,6 +43,10 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+}
+.Me {
+    width: 350px;
+    height: 500px;
 }
 
 header {
@@ -87,6 +91,12 @@ content {
 p {
     margin: var(--gutter);
 }
+.userInput{
+
+    background-color: chartreuse;
+
+}
+
   
 footer {
     position: fixed;

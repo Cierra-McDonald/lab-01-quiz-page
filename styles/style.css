@@ -18,9 +18,10 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Bodoni Moda', sans-serif;
     background-color: var(--color2);
 }
+
 
 main {
     display: flex;
@@ -34,7 +35,7 @@ main {
 section {
     background-color:#F2CCC3;
     width: 1000px;
-    /* max-width: 80%; */
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +55,7 @@ section {
     border-radius: 25px;
 }
 .Me img{
-    width: 300px;
+    width: 200px;
     height: 250px;
     padding: 15px;
     border-radius: 10px;
@@ -90,6 +91,7 @@ h2 {
 
 .main-logo {
     animation: pulse 5s infinite ease-in-out;
+    margin-top: 20px;
 }
 
 header img {

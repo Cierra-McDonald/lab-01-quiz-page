@@ -14,5 +14,13 @@ labQuizButton.addEventListener('click', () => {
     prompt('What is your first name?');
     
     prompt('What is your last name?');
+    
+    prompt('Was Cierra born in Colorado Springs?');
+
+    prompt('Was lacrosse one of the sports she played?');
+
+    prompt('Did Cierra receive a minor in pre-law?');
+
+    prompt('Is Cierra an extrovert?');
 
 });
